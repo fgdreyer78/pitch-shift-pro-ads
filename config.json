@@ -4,5 +4,6 @@
   "glide_global_default": 55,
   "banner_active_global": true,
   "debug_mode": false,
+  "show_update_alert": false,
   "min_version_required": "1.0.0"
 }
