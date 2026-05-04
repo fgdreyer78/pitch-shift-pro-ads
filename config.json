@@ -1,7 +1,7 @@
 {
   "config_check_interval_minutes": 60,
   "licensa_check_interval_ms": 120000,
-  "glide_global_default": 50,
+  "glide_global_default": 33,
   "banner_active_global": true,
   "debug_mode": false,
   "min_version_required": "1.0.0"
