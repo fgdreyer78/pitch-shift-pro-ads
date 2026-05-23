@@ -13,27 +13,29 @@
 <body>
 
     <h1>Privacy Policy for Pitch Shift Pro 8</h1>
-    <p><strong>Effective Date:</strong> April 2026</p>
+    <p><strong>Effective Date:</strong> May 2026</p>
 
     <p>Pitch Shift Pro ("we", "our", or "the extension") by Spirit Inspired Studio is committed to protecting your privacy. This Privacy Policy explains how our extension handles information when you use it.</p>
 
     <h2>1. Data Collection and Usage</h2>
-    <p>Pitch Shift Pro does <strong>not</strong> collect, store, transmit, or share any personal information, browsing history, or user data with our servers. All audio operations are performed locally on your device.</p>
+    <p>Pitch Shift Pro does <strong>not</strong> collect, store, transmit, or share your browsing history or background user data with our servers. All audio operations are performed locally on your device. The only personal information processed by the extension is the email address and license key you voluntarily input into the extension's interface to validate your Plus or Premium status.</p>
 
     <h2>2. Local Storage</h2>
-    <p>The extension uses your browser's local storage (<code>localStorage</code>) exclusively to save your audio presets, cuts, automations, loop settings, and license status cache. This data remains on your computer and is never sent to us or any third parties. You can delete this data at any time by clearing your browser's local storage or using the tools within the extension.</p>
+    <p>The extension uses your browser's local storage (<code>localStorage</code>) exclusively to save your audio presets, cuts, automations, loop settings, language preferences, and license status cache. This data remains on your computer and is never sent to us or any third parties. You can delete this data at any time by clearing your browser's local storage or using the tools within the extension.</p>
 
     <h2>3. Permissions</h2>
     <p>To function correctly, Pitch Shift Pro requires the following permissions:</p>
     <ul>
-        <li><strong><code>activeTab</code> and <code>scripting</code>:</strong> These are strictly used to access and modify the audio context of the active tab you are currently viewing, allowing the extension to change pitch and speed. The extension does not read or monitor your activity on any other tabs or websites.</li>
+        <li><strong><code>storage</code>:</strong> Required to save your personal preferences, presets, and license cache locally on your machine.</li>
+        <li><strong><code>alarms</code>:</strong> Used to schedule lightweight background tasks, such as periodic checks to validate your license status without impacting browser performance, and to manage audio automation timers (Glide feature).</li>
+        <li><strong><code>tabs</code> (<code>activeTab</code>) and <code>scripting</code>:</strong> Strictly used to access and modify the audio context of the active tab you are currently viewing, allowing the extension to change pitch and speed. The extension does not read or monitor your activity on any other tabs or websites.</li>
         <li><strong>Host Permission (<code>*://*.youtube.com/*</code>):</strong> Required to apply the audio effects specifically on YouTube video pages.</li>
     </ul>
 
     <h2>4. Third-Party Services & Licensing</h2>
     <ul>
         <li>The extension interacts with YouTube to modify audio playback.</li>
-        <li>The "Original Key Search" feature simply opens a new tab with a standard Google Search query based on the video title. It does not track your searches.</li>
+        <li>The "Original Key Search" and "BPM Search" features simply open a new tab with a standard Google Search query based on the video title. We do not track your searches.</li>
         <li><strong>Licensing and Payments:</strong> To activate Premium or Plus features, the extension validates your license key securely via the <strong>Lemon Squeezy API</strong>. We do not directly collect, process, or store any of your financial information or credit card details.</li>
     </ul>
 
